@@ -16,3 +16,18 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+button{
+  padding: 20px 40px;
+}
+
+button:nth-child(1){
+  margin-right:20px;
+}
