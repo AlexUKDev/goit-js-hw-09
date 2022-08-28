@@ -65,7 +65,7 @@ function onStartBtn() {
      clearInterval(intervalId);
      
      Notiflix.Report.info(
-       'The timer has finished its work',
+       'The timer has finished',
        'Just pick a date in the future again',
        'Thanks for the info',
         function cb() {
