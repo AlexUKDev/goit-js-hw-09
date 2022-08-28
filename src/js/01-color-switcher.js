@@ -21,7 +21,6 @@
 function changeBgColors(){
   let rendomColor = getRandomHexColor();
   bodyRef.style.backgroundColor = rendomColor;
-  console.log(bodyRef.style.backgroundColor);
 }
 
   function onStopBtn(){
