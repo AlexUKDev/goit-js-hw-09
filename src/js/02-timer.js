@@ -6,7 +6,7 @@ import "flatpickr/dist/flatpickr.min.css";
 let SELECTED_DATE = new Date().getTime();
 // console.log(SELECTED_DATE)
 let difTime = null;
-console.log(difTime)
+// console.log(difTime)
 let intervalId = null;
 
 const refs = {
