@@ -17,20 +17,15 @@ img {
   max-width: 100%;
 }
 
+label{
+  font-size: 25px;
+}
 .color-switcher_wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 200px;
 }
-
-/* button{
-  padding: 20px 50px;
-} */
-
-/* button:nth-child(1){
-  margin-right:20px;
-} */
 
 .color-switcher_btn-left{
   margin-right: 20px;
@@ -80,25 +75,16 @@ img {
 .label {
   font-size: 40px;
 }
-/* .timer{
+
+.form-center{
   display: flex;
   justify-content: center;
-  font-size: 50px;
-}
-.field {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
 }
 
-.value .label {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+.promisess_input{
+  width: 200px;
+  height: 50px;
+  margin-right: 15px;
+  font-size: 25px;
 }
 
-#datetime-picker{
-  font-size: 40px;
-  padding: 14px
-} */

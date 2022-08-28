@@ -17,6 +17,7 @@ const refs = {
   secondsValue: document.querySelector('span.value[data-seconds]'), 
   input: document.querySelector('#datetime-picker')
 }
+
 // установливаем дефотное состояние кнопки Старт, дизаблим
 refs.btnStart.disabled = true;
 
@@ -70,10 +71,9 @@ function onStartBtn() {
        'Thanks for the info',
         function cb() {
           refs.input.disabled = false;
+          // location.reload()
         },
-        {
-          timeout: 5000,
-        });
+        );
       }
 
   }, 1000);
