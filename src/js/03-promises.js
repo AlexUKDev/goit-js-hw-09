@@ -31,9 +31,9 @@ function onFormSubmit(evt) {
   let stepDelayToNum = +refs.stepInput.value;
   let amountToNum = +refs.amountInput.value;
 
-  console.log(firstDelayToNum);
-  console.log(stepDelayToNum);
-  console.log(amountToNum);
+  // console.log(firstDelayToNum);
+  // console.log(stepDelayToNum);
+  // console.log(amountToNum);
 
   for (let i = 1; i <= amountToNum; i += 1) {
 
