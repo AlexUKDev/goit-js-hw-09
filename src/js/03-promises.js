@@ -35,7 +35,7 @@ function onFormSubmit(evt) {
   // console.log(stepDelayToNum);
   // console.log(amountToNum);
 
-  for (let i = 1; i <= amountToNum; i += 1) {
+  for (let i = 1; i <= amountToNum; i ++) {
 
     createPromise(i, firstDelayToNum)
       .then(({ position, delay }) => {
